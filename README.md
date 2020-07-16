@@ -21,7 +21,7 @@ drawing.translate((NEW_X, NEW_Y))
 Sets the new drawing origin to be (NEW_X, NEW_Y)  
 
 drawing.rotate(RADIANS)  
-Rotates all future drawings counter-clockwise around the origin by RADIANS radians  
+Rotates all future drawings clockwise around the origin by RADIANS radians  
 
 drawing.push()  
 Saves current origin and rotation orientation for future callbacks by pop(), can be called multiple times to save multiple orientations
